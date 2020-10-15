@@ -299,7 +299,35 @@ li:nth-last-child(2) {
 
 /* Footer */
 
-.footer {
-  height: 50px;
+footer {
+  background: #152c36;
+  margin-top: 73px;
 }
 
+footer a {
+  margin-top: 0;
+  color: white;
+}
+
+footer ul li {
+  background: #152c36;
+}
+
+footer .wrapper {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #039d86;
+}
+
+.socials {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
