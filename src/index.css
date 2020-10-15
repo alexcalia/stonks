@@ -15,6 +15,16 @@ body {
   color: white;
 }
 
+/* Colors */
+/* #039d86 */
+.greenFont,
+.buySell input:focus,
+footer a:hover,
+footer a:focus {
+  color: #039d86;
+}
+
+
 /* General Stylings */
 .wrapper {
   max-width: 1400px;
@@ -37,10 +47,6 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.greenFont {
-  color: #039d86;
 }
 
 .redFont {
@@ -249,7 +255,6 @@ li:nth-last-child(2) {
 
 .buySell input:focus {
   border: 1px solid #039d86;
-  color: #039d86;
 }
 
 .buySell button,
@@ -318,11 +323,6 @@ footer .wrapper {
   height: 60px;
   justify-content: space-between;
   align-items: center;
-}
-
-footer a:hover,
-footer a:focus {
-  color: #039d86;
 }
 
 .socials {
