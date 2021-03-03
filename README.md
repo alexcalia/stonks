@@ -1,6 +1,6 @@
 ## Stonks
 
-Tech Stack: HTML, CSS< JavaScript, React, ChartJS
+Tech Stack: HTML, CSS, JavaScript, React, ChartJS
 
 Buy and sell stocks on a fake stock market. As days pass in the app, stock prices update randomly.
 Portfolio and stock price performances are visualized with interactive ChartJs components.
